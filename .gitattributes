@@ -1,0 +1,10 @@
+# Project-specific overrides
+app/**/*.tsx linguist-detectable
+*.yaml linguist-detectable=false
+go.sum linguist-generated
+public/** linguist-vendored
+*.jpg binary
+*.min.js linguist-generated
+dist/* linguist-vendored
+
+# eof 7bf8851c
